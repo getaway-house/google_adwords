@@ -144,7 +144,7 @@ view: base {
 
 view: ad {
   extends: [entity_base]
-  sql_table_name: adwords_v201609.Ad_6747157124 ;;
+  sql_table_name: ads ;;
 
   dimension: _data {
     sql: TIMESTAMP(${TABLE}._DATA_DATE) ;;

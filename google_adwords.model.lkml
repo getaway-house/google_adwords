@@ -1,4 +1,4 @@
-connection: "bigquery-connectors-adwords"
+connection: "getaway_production_follower"
 
 # include all the views
 include: "*.view"
